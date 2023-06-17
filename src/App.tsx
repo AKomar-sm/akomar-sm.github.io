@@ -13,7 +13,7 @@ function App(): JSX.Element {
             src={doorOpened}
             className="doorOpenedImg"
             alt="doorOpenedImg"
-            width="700px"
+            width="100%"
             height="700px"
           />
         </div>

@@ -9,6 +9,12 @@
     position: relative;
     width: 50%;
   }
+  & .topWrapperLeftSide {
+    padding-left: 40px;
+  }
+  & .topWrapperRightSide {
+    padding-right: 40px;
+  }
   & .topVastuWord,
   & .topSpaceWord {
     position: absolute;
@@ -53,6 +59,7 @@
       height: 70px;
       margin-top: 50px;
       display: flex;
+      align-items: center;
       font-size: 18px;
       letter-spacing: 0px;
       line-height: 18px;
