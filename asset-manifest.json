@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.f5270542.css",
+    "main.js": "/build/static/js/main.1c874542.js",
+    "static/js/496.bfa3878c.chunk.js": "/build/static/js/496.bfa3878c.chunk.js",
+    "static/media/doorOpened.jpg": "/build/static/media/doorOpened.ba82c1f1d3a16468d852.jpg",
+    "index.html": "/index.html",
+    "main.f5270542.css.map": "/build/static/css/main.f5270542.css.map",
+    "main.1c874542.js.map": "/build/static/js/main.1c874542.js.map",
+    "496.bfa3878c.chunk.js.map": "/build/static/js/496.bfa3878c.chunk.js.map"
+  },
+  "entrypoints": [
+    "build/static/css/main.f5270542.css",
+    "build/static/js/main.1c874542.js"
+  ]
+}
