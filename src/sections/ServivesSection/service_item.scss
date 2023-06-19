@@ -1,0 +1,46 @@
+.servicesWrapper {
+  width: 31%;
+  height: 600px;
+  padding: 40px;
+  padding-top: 107px;
+  box-sizing: border-box;
+  background-color: #fff4ed;
+  border-top-left-radius: 17vw;
+  border-top-right-radius: 17vw;
+  h3 {
+    width: 80%;
+    height: 105px;
+    font-size: 28px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Philosopher';
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .itemUl {
+    li:marker {
+      content: '-';
+    }
+  }
+  .freeConsultingItemButton {
+    background: none;
+    width: 380px;
+    height: 70px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #383838;
+    font-weight: 250;
+    font-family: 'Raleway';
+    text-align: left;
+    border-radius: 30px;
+    border: none;
+  }
+}

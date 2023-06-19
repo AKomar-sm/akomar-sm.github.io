@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b691602.css",
-    "main.js": "/static/js/main.b932085e.js",
+    "main.css": "/static/css/main.3d3d897c.css",
+    "main.js": "/static/js/main.5f16ea31.js",
     "static/js/496.bfa3878c.chunk.js": "/static/js/496.bfa3878c.chunk.js",
+    "static/media/house.png": "/static/media/house.be55d79b71bd67eed104.png",
+    "static/media/family.jpg": "/static/media/family.0c01a98425843dcc730f.jpg",
+    "static/media/parushtu.png": "/static/media/parushtu.8f820da9f10cc07fb045.png",
     "static/media/doorOpened.jpg": "/static/media/doorOpened.ba82c1f1d3a16468d852.jpg",
     "static/media/pencil.jpg": "/static/media/pencil.5c0b59cefce34571c4cb.jpg",
+    "static/media/Raleway-Light.woff": "/static/media/Raleway-Light.ad15908bee15f69101f0.woff",
+    "static/media/Raleway-Regular.woff": "/static/media/Raleway-Regular.6166335093a133f980c6.woff",
+    "static/media/Philosopher-Bold-webfont.woff": "/static/media/Philosopher-Bold-webfont.664132b335f90554ae61.woff",
+    "static/media/Philosopher-Regular-webfont.woff": "/static/media/Philosopher-Regular-webfont.1a278651733be782ce71.woff",
+    "static/media/Philosopher-BoldItalic-webfont.woff": "/static/media/Philosopher-BoldItalic-webfont.6612c3406d9fe929f355.woff",
+    "static/media/Philosopher-Italic-webfont.woff": "/static/media/Philosopher-Italic-webfont.3cf6ef8929197b4865fa.woff",
     "index.html": "/index.html",
-    "main.1b691602.css.map": "/static/css/main.1b691602.css.map",
-    "main.b932085e.js.map": "/static/js/main.b932085e.js.map",
+    "main.3d3d897c.css.map": "/static/css/main.3d3d897c.css.map",
+    "main.5f16ea31.js.map": "/static/js/main.5f16ea31.js.map",
     "496.bfa3878c.chunk.js.map": "/static/js/496.bfa3878c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b691602.css",
-    "static/js/main.b932085e.js"
+    "static/css/main.3d3d897c.css",
+    "static/js/main.5f16ea31.js"
   ]
 }

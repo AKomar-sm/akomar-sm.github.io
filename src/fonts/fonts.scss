@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Philosopher';
+  src: local('Philosopher'),
+    url('./Philosopher-Regular-webfont.woff') format('woff'),
+    url('./Philosopher-Italic-webfont.woff') format('woff'),
+    url('./Philosopher-Bold-webfont.woff') format('woff'),
+    url('./Philosopher-BoldItalic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway'),
+    //url('./raleway/Raleway-Black.woff') format('woff'),
+    // url('./raleway/Raleway-Bold.woff') format('woff'),
+    // url('./raleway/Raleway-ExtraBold.woff') format('woff'),
+    // url('./raleway/Raleway-SemiBold.woff') format('woff'),
+    // url('./raleway/Raleway-Thin.woff') format('woff'),
+    // url('./raleway/Raleway-ExtraLight.woff') format('woff'),
+    // url('./raleway/Raleway-ExtraLight.woff') format('woff'),
+    url('./raleway/Raleway-Light.woff') format('woff'),
+    // url('./raleway/Raleway-Medium.woff') format('woff'),
+    url('./raleway/Raleway-Regular.woff') format('woff');
+}
