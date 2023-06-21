@@ -1,0 +1,18 @@
+.arrowOnlyBtn {
+  background: none;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 0;
+  .buttomLeftLine {
+    width: 40px;
+    height: 2px;
+    background-color: #d8a27d;
+  }
+  & svg {
+    margin-right: -7px;
+    margin-left: -5px;
+    font-size: 46px;
+  }
+}

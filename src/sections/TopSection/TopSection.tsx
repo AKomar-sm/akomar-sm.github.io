@@ -1,7 +1,7 @@
 import React from 'react';
 import doorOpened from 'assets/images/doorOpened.jpg';
-import arrowButton from 'assets/images/arrowButton.png';
 import './top_section.scss';
+import { ArrowButton } from './ArrowButton';
 
 export const TopSection = (): JSX.Element => {
   return (
@@ -20,10 +20,7 @@ export const TopSection = (): JSX.Element => {
         <p className="topSpaceWord">SPACE</p>
         <div className="rightBottomSloganWrapper">
           <p className="sloganText">Создаем пространства меняющие сознание</p>
-          <button className="freeConsultingButton">
-            <img src={arrowButton} alt="" />
-            <span>Бесплатная консультация</span>
-          </button>
+          <ArrowButton />
         </div>
       </div>
     </div>

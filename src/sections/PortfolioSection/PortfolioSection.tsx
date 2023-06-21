@@ -1,6 +1,8 @@
 import React from 'react';
 import house from 'assets/images/house.png';
 import './portfolio_section.scss';
+import { ArrowButtonForPortfolio } from './ArrowButtonForPortfolio';
+import { ArrowOnlyButton } from './ArrowOnlyButton';
 
 const portfolioData = [
   {
@@ -27,7 +29,6 @@ export const PortfolioSection = (): JSX.Element => {
   return (
     <div className="portfolioWrapper">
       <h2>Портфолио</h2>
-
       <div className="portfolioContent">
         {portfolioData.map(({ id, header, description, imageSrc }) => (
           <div key={id} className="portfolioItem">
@@ -35,11 +36,13 @@ export const PortfolioSection = (): JSX.Element => {
             <img src={imageSrc} alt="" />
             <div className="textWithArrowButton">
               <p>{description}</p>
-              {/* TODO: */}
-              {/* <button>arrow</button> */}
+              <ArrowOnlyButton />
             </div>
           </div>
         ))}
+      </div>
+      <div className="portfolioBtnContainer">
+        <ArrowButtonForPortfolio />
       </div>
     </div>
   );

@@ -3,6 +3,8 @@
   border-radius: 40px;
   background-color: #fff4ed;
   padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   h2 {
     margin-top: 0;
     margin-bottom: 0;
@@ -17,7 +19,7 @@
   }
   .portfolioContent {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     .portfolioItem {
       width: 30%;
       img {
@@ -37,6 +39,7 @@
       }
       .textWithArrowButton {
         display: flex;
+        align-items: center;
         button {
           background: none;
         }
@@ -51,5 +54,10 @@
         }
       }
     }
+  }
+  .portfolioBtnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
   }
 }

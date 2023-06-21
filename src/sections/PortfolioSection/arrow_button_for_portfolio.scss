@@ -1,0 +1,38 @@
+.freeConsultingButtonForPortfolio {
+  background: none;
+  height: 70px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #383838;
+  font-weight: 250;
+  font-family: 'Raleway';
+  text-align: left;
+  border-radius: 30px;
+  border: none;
+  padding: 0;
+  span {
+    margin-right: 10px;
+  }
+  .buttomLeftLine {
+    width: 50px;
+    height: 4px;
+    background-color: #d8a27d;
+  }
+  & .arrowInCercle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #abbdd6;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    & svg {
+      transform: scale(1.1) translateX(-6px);
+    }
+  }
+}
