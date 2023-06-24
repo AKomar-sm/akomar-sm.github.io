@@ -12,7 +12,10 @@
   font-family: 'Raleway';
   text-align: left;
   border-radius: 30px;
-  border: none;
+  border: 1px solid white;
+  &:hover {
+    border-color: black;
+  }
   span {
     margin-right: 10px;
   }

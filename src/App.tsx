@@ -16,7 +16,7 @@ function App(): JSX.Element {
     <div className="sectionsWrapper">
       <TopSection {...{ anchorRef }} />
       <AboutUsSection />
-      <ServicesSection />
+      <ServicesSection {...{ anchorRef }} />
       <WhyVastuSection />
       <PortfolioSection />
       <FeedbackSection {...{ anchorRef }} />
