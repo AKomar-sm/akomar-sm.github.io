@@ -8,8 +8,10 @@ interface WhyItemProps {
 
 export const ServiceItem = ({ header, text }: WhyItemProps): JSX.Element => {
   return (
-    <div className="servicesWrapper">
-      <h3>{header}</h3>
+    <div className="serviceItemWrapper">
+      <div className="headerContainer">
+        <h3>{header}</h3>
+      </div>
       <p className="itemUl">{text}</p>
       <ArrowButtonForServices />
     </div>

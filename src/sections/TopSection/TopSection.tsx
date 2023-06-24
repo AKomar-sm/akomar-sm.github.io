@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { MouseEventHandler } from 'react';
 import doorOpened from 'assets/images/doorOpened.jpg';
 import './top_section.scss';
 import { ArrowButton } from './ArrowButton';
+interface TopSectionProps {
+  anchorRef: any;
+}
 
-export const TopSection = (): JSX.Element => {
+export const TopSection = ({ anchorRef }: TopSectionProps): JSX.Element => {
+  const onArrowButtonClick: MouseEventHandler<HTMLButtonElement> = () => {
+    anchorRef.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  };
   return (
     <div className="topLogoWrapper">
       <div className="topWrapperLeftSide">
@@ -20,7 +30,7 @@ export const TopSection = (): JSX.Element => {
         <p className="topSpaceWord">SPACE</p>
         <div className="rightBottomSloganWrapper">
           <p className="sloganText">Создаем пространства меняющие сознание</p>
-          <ArrowButton />
+          <ArrowButton onClick={onArrowButtonClick} />
         </div>
       </div>
     </div>

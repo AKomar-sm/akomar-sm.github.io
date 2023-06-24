@@ -2,8 +2,8 @@
   margin-top: 20px;
   padding-left: 40px;
   padding-right: 40px;
-
   .aboutUsBody {
+    width: 100%;
     align-items: center;
     display: flex;
     .headerDecoration {
@@ -21,6 +21,9 @@
       font-weight: 400;
       font-family: 'Philosopher';
       text-align: center;
+    }
+    .leftSideContainer {
+      width: 143%;
     }
     .leftSideText,
     .rightSideText {

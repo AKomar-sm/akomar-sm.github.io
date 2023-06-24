@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { LegacyRef } from 'react';
 import './feedback_section.scss';
 
 const feedbacksData = [
@@ -31,7 +31,14 @@ const feedbacksData = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum est eu condimentum facilisis. Nam mollis, ligula sit amet tempor rhoncus, erat risus posuere nunc, at bibendum justo mauris ac velit. Aliquam tristique iaculis augue quis bibendum. Nullam ipsum ex, rutrum nec placerat id, dignissim varius ex. Morbi laoreet convallis mauris eget lobortis. Mauris vel auctor odio. Vivamus id scelerisque orci, vitae maximus lectus. Etiam scelerisque ultrices elementum. Vestibulum mollis euismod dui, vitae venenatis ante ornare scelerisque. Suspendisse vel ultricies arcu.',
   },
 ];
-export const FeedbackSection = (): JSX.Element => {
+
+interface FeedbackSectionProps {
+  anchorRef: LegacyRef<HTMLDivElement> | undefined;
+}
+
+export const FeedbackSection = ({
+  anchorRef,
+}: FeedbackSectionProps): JSX.Element => {
   return (
     <div className="feedbackSectionWrapper">
       <h2>Отзывы клиентов</h2>
@@ -44,6 +51,7 @@ export const FeedbackSection = (): JSX.Element => {
           </div>
         ))}
       </div>
+      <div ref={anchorRef}></div>
     </div>
   );
 };
