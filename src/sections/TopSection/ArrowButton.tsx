@@ -14,8 +14,8 @@ export const ArrowButton = ({ onClick }: ArrowButtonProps): JSX.Element => {
         <RxArrowRight color="#d8a27d" fontSize="60px" />
       </div>
       <span>
-        Бесплатная <br />
-        консультация
+        Получить <br />
+        консультацию
       </span>
     </button>
   );

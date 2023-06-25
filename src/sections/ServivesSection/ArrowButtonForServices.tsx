@@ -8,8 +8,8 @@ export const ArrowButtonForServices = ({ onClick }: TODO_TYPE): JSX.Element => {
   return (
     <button className="freeConsultingButtonForServices" onClick={onClick}>
       <span>
-        Бесплатная <br />
-        консультация
+        Получить <br />
+        консультацию
       </span>
       <div className="buttomLeftLine" />
       <div className="arrowInCercle">
