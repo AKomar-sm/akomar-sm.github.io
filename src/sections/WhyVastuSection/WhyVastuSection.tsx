@@ -1,6 +1,6 @@
 import React from 'react';
 import './why_vastu_section.scss';
-import parushtu from 'assets/images/parushtu.png';
+import parushaBack from 'assets/images/parushaBack.jpg';
 
 const vastyPros = [
   {
@@ -24,12 +24,6 @@ export const WhyVastuSection = (): JSX.Element => {
       <div className="whyVastuContent">
         <div className="whyVastuFirstContentSection">
           <div>
-            <p className="notQuote">
-              Уникальность Васту в том, что она вышла за границы материальных
-              наук. До этого никто не объяснял духовный опыт, счастье,
-              материальное процветание и физическое благополучие с научной точки
-              зрения и математических основ.
-            </p>
             <p>
               «Традиционная индийская наука есть наука о Материи и Энергии.
               Наука о Времени и Пространстве. Наука о Пространствах и
@@ -37,11 +31,19 @@ export const WhyVastuSection = (): JSX.Element => {
               Форме. Наука о Тонкой Вселенной и Тяжелой Вселенной. Это не
               философия и не религия.»
               <span> Доктор Г. Стхапати «Стхапатья Веда»</span>
-            </p>{' '}
+            </p>
+            <p className="notQuote">
+              Уникальность Васту в том, что она вышла за границы материальных
+              наук. До этого никто не объяснял духовный опыт, счастье,
+              материальное процветание и физическое благополучие с научной точки
+              зрения и математических основ.
+            </p>
           </div>
-
-          <img src={parushtu} alt="" />
-        </div>{' '}
+          <div className="parushaWrapper">
+            <img src={parushaBack} alt="" />
+            <div className="parushaHolder" />
+          </div>
+        </div>
         <div className="vastuPros">
           {vastyPros.map(({ text, id }) => (
             <div key={id} className="prosItem">

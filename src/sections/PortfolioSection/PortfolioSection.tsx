@@ -1,23 +1,25 @@
 import React from 'react';
-import house from 'assets/images/house.png';
+import pr1 from 'assets/images/pr1.jpg';
+import pr2 from 'assets/images/pr2.png';
+import pr3 from 'assets/images/pr3.jpg';
 import './portfolio_section.scss';
 import { ArrowButtonForPortfolio } from './ArrowButtonForPortfolio';
 import { ArrowOnlyButton } from './ArrowOnlyButton';
 
 const portfolioData = [
   {
-    description: 'Васту дизайн интерьера дома «Солнечный», 160 кв. м',
-    imageSrc: house,
+    description: 'Дом из клееного бруса, 234 кв.м.',
+    imageSrc: pr1,
     id: '1',
   },
   {
-    description: 'Васту дизайн интерьера дома «Солнечный», 160 кв. м',
-    imageSrc: house,
+    description: 'Дом с бельведером, 321 кв.м',
+    imageSrc: pr2,
     id: '2',
   },
   {
-    description: 'Васту дизайн интерьера дома «Солнечный», 160 кв. м',
-    imageSrc: house,
+    description: 'Одноэтажный жилой дом, 160 кв. м',
+    imageSrc: pr3,
     id: '3',
   },
 ];

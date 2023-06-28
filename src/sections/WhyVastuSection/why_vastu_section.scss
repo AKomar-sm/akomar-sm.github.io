@@ -14,7 +14,7 @@
           text-align: left;
           line-height: 30px;
         }
-        text-align: right;
+        text-align: left;
         font-size: 22px;
         letter-spacing: 0px;
         line-height: 36px;
@@ -25,9 +25,33 @@
         span {
           display: block;
           color: #abbdd6;
-          margin-top: 30px;
+          margin-bottom: 50px;
           font-size: 23px;
           text-align: right;
+        }
+      }
+      .parushaWrapper {
+        width: 50%;
+        height: 500px;
+        position: relative;
+
+        padding: 50px;
+        padding-left: 110px;
+        padding-top: 15px;
+        img {
+          height: 500px;
+          object-fit: cover;
+        }
+        .parushaHolder {
+          width: 130%;
+          height: 536px;
+          position: absolute;
+          top: 2px;
+          left: -68px;
+          background-image: url('../../assets/images/parusha.png');
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
         }
       }
     }

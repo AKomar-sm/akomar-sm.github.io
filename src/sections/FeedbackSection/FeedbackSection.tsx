@@ -4,31 +4,34 @@ import './feedback_section.scss';
 const feedbacksData = [
   {
     id: '1',
-    name: 'Иван',
-    project: 'Проект дома из кленового бруса',
+    name: 'Нуржавган',
+    project: 'Коррекция квартиры',
     feedback:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum est eu condimentum facilisis. Nam mollis, ligula sit amet tempor rhoncus, erat risus posuere nunc, at bibendum justo mauris ac velit. Aliquam tristique iaculis augue quis bibendum. Nullam ipsum ex, rutrum nec placerat id, dignissim varius ex. Morbi laoreet convallis mauris eget lobortis. Mauris vel auctor odio. Vivamus id scelerisque orci, vitae maximus lectus. Etiam scelerisque ultrices elementum. Vestibulum mollis euismod dui, vitae venenatis ante ornare scelerisque. Suspendisse vel ultricies arcu.',
+      'Огромная благодарность Сергею, за проведенную коррекцию. Оперативно поработал по моим задачам и целям, с учётом чего были внесены изменения в квартире. После этого стала замечать как меняется отношение к себе, и к противоположному полу. Посмотрим что будет дальше, процесс продолжается.',
   },
   {
     id: '2',
-    name: 'Иван',
-    project: 'Проект дома из кленового бруса',
+    name: 'Эва, Прага',
+    project: 'Коррекция квартиры',
     feedback:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum est eu condimentum facilisis. Nam mollis, ligula sit amet tempor rhoncus, erat risus posuere nunc, at bibendum justo mauris ac velit. Aliquam tristique iaculis augue quis bibendum. Nullam ipsum ex, rutrum nec placerat id, dignissim varius ex. Morbi laoreet convallis mauris eget lobortis. Mauris vel auctor odio. Vivamus id scelerisque orci, vitae maximus lectus. Etiam scelerisque ultrices elementum. Vestibulum mollis euismod dui, vitae venenatis ante ornare scelerisque. Suspendisse vel ultricies arcu.',
+      'В работе Сергея мне всё понравилось, но больше всего хочу отметить коммуникации, скорость исполнения, высокий уровень знаний и профессионализм. Могу рекомендовать - было не только полезно, но интересно',
   },
   {
     id: '3',
-    name: 'Иван',
-    project: 'Проект дома из кленового бруса',
-    feedback:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum est eu condimentum facilisis. Nam mollis, ligula sit amet tempor rhoncus, erat risus posuere nunc, at bibendum justo mauris ac velit. Aliquam tristique iaculis augue quis bibendum. Nullam ipsum ex, rutrum nec placerat id, dignissim varius ex. Morbi laoreet convallis mauris eget lobortis. Mauris vel auctor odio. Vivamus id scelerisque orci, vitae maximus lectus. Etiam scelerisque ultrices elementum. Vestibulum mollis euismod dui, vitae venenatis ante ornare scelerisque. Suspendisse vel ultricies arcu.',
+    name: 'Дмитрий, Майкоп',
+    project: 'Работа с проектом дома',
+    feedback: `Я хотел бы поделиться своим отзывом о консультации специалиста Васту шастра, которую я получил при проектировании дома на участке, который изначально имел неидеальное расположение из-за наличия горы с восточной стороны.
+    Прежде всего, я хотел бы отметить профессионализм и глубокие знания Сергея, с которыми я столкнулся во время консультации. Он был внимателен к деталям и тщательно изучил участок, а также его окружение. Он предложил ценные советы и рекомендации о том, как сделать дом гармоничным и создать благоприятную энергетику в данном пространстве.
+    Сергей обратил особое внимание на расположение дома, ориентацию фасадов и внутреннее планирование. С его помощью мы смогли сделать так, чтобы дом соответствовал принципам Васту шастра и обеспечивал гармоничную жизнь для нас.
+    Одной из важных вещей было объяснение и обучение принципам и концепциям Васту шастра не только для меня но и команду проектировщиков нашего дома. 
+    Результаты консультации были очень полезными и вдохновляющими. Я был впечатлен тем, какие позитивные изменения можно внести, следуя принципам Васту шастра. Спасибо Сергею за его ценные советы и профессионализм`,
   },
   {
     id: '4',
-    name: 'Иван',
-    project: 'Проект дома из кленового бруса',
+    name: 'Михаил, Москва',
+    project: 'Консультация при покупке квартиры и коррекция.',
     feedback:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum est eu condimentum facilisis. Nam mollis, ligula sit amet tempor rhoncus, erat risus posuere nunc, at bibendum justo mauris ac velit. Aliquam tristique iaculis augue quis bibendum. Nullam ipsum ex, rutrum nec placerat id, dignissim varius ex. Morbi laoreet convallis mauris eget lobortis. Mauris vel auctor odio. Vivamus id scelerisque orci, vitae maximus lectus. Etiam scelerisque ultrices elementum. Vestibulum mollis euismod dui, vitae venenatis ante ornare scelerisque. Suspendisse vel ultricies arcu.',
+      'Долго искали хорошую квартиру, чтобы соответствовала основным принципам Васту, Сергей рассказал на что обратить внимание при покупке. Когда нашли, (очень понравилась) все равно потребовались небольшие изменения, но их легко было сделать на стадии ремонта. При общении узнали для себя много нового и интересного. И действительно, после такой работы, отношение к квартире, как к живому дому.',
   },
 ];
 
