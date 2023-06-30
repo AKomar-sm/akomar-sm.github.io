@@ -1,40 +1,84 @@
-.freeConsultingButton {
-  background: none;
-  height: 70px;
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  font-size: 18px;
-  letter-spacing: 0px;
-  line-height: 18px;
-  color: #383838;
-  font-weight: 250;
-  font-family: 'Raleway';
-  text-align: left;
-  border-radius: 25px;
-  border: none;
-  border: 1px solid #fff;
-  &:hover {
-    border-color: #abbdd6;
-  }
-  span {
-    margin-left: 10px;
-  }
-  .buttomLeftLine {
-    width: 150px;
-    height: 4px;
-    background-color: #d8a27d;
-  }
-  & .arrowInCercle {
+@media only screen and (max-width: 700px) {
+  .freeConsultingButton {
+    background: none;
+    height: 70px;
+    margin: 50px auto 0 auto;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    background-color: #abbdd6;
-    border-radius: 100%;
-    width: 60px;
-    height: 60px;
-    & svg {
-      transform: scale(1.1) translateX(-6px);
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #383838;
+    font-weight: 250;
+    font-family: 'Raleway';
+    text-align: left;
+    border-radius: 25px;
+    border: none;
+    border: 1px solid #fff;
+    &:hover {
+      border-color: #abbdd6;
+    }
+    span {
+      margin-left: 10px;
+    }
+    .buttomLeftLine {
+      width: 70px;
+      height: 4px;
+      background-color: #d8a27d;
+    }
+    & .arrowInCercle {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: #abbdd6;
+      border-radius: 100%;
+      width: 60px;
+      height: 60px;
+      & svg {
+        transform: scale(1.1) translateX(-6px);
+      }
+    }
+  }
+}
+@media only screen and (min-width: 700px) {
+  .freeConsultingButton {
+    background: none;
+    height: 70px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #383838;
+    font-weight: 250;
+    font-family: 'Raleway';
+    text-align: left;
+    border-radius: 25px;
+    border: none;
+    border: 1px solid #fff;
+    &:hover {
+      border-color: #abbdd6;
+    }
+    span {
+      margin-left: 10px;
+    }
+    .buttomLeftLine {
+      width: 150px;
+      height: 4px;
+      background-color: #d8a27d;
+    }
+    & .arrowInCercle {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: #abbdd6;
+      border-radius: 100%;
+      width: 60px;
+      height: 60px;
+      & svg {
+        transform: scale(1.1) translateX(-6px);
+      }
     }
   }
 }

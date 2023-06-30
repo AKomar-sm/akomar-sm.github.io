@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.94b1513b.css",
+    "main.css": "/static/css/main.6d82a9e4.css",
     "main.js": "/static/js/main.3182e643.js",
     "static/media/doorOpened.jpg": "/static/media/doorOpened.71f00a12661f12058c81.jpg",
     "static/media/Raleway-Light.woff": "/static/media/Raleway-Light.ad15908bee15f69101f0.woff",
@@ -11,11 +11,11 @@
     "static/media/Philosopher-BoldItalic-webfont.woff": "/static/media/Philosopher-BoldItalic-webfont.6612c3406d9fe929f355.woff",
     "static/media/Philosopher-Italic-webfont.woff": "/static/media/Philosopher-Italic-webfont.3cf6ef8929197b4865fa.woff",
     "index.html": "/index.html",
-    "main.94b1513b.css.map": "/static/css/main.94b1513b.css.map",
+    "main.6d82a9e4.css.map": "/static/css/main.6d82a9e4.css.map",
     "main.3182e643.js.map": "/static/js/main.3182e643.js.map"
   },
   "entrypoints": [
-    "static/css/main.94b1513b.css",
+    "static/css/main.6d82a9e4.css",
     "static/js/main.3182e643.js"
   ]
 }
