@@ -1,15 +1,33 @@
-.sectionsWrapper {
-  max-width: 1480px;
-  margin-left: auto;
-  margin-right: auto;
+@media only screen and (max-width: 700px) {
+  h2 {
+    font-size: 42px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #abbdd6;
+    font-weight: 400;
+    font-family: 'Philosopher';
+    text-align: center;
+  }
 }
-h2 {
-  font-size: 48px;
-  letter-spacing: 0px;
-  line-height: 72px;
-  text-transform: uppercase;
-  color: #abbdd6;
-  font-weight: 400;
-  font-family: 'Philosopher';
-  text-align: center;
+@media only screen and (min-width: 700px) {
+  h2 {
+    font-size: 48px;
+    letter-spacing: 0px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #abbdd6;
+    font-weight: 400;
+    font-family: 'Philosopher';
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+}
+@media only screen and (min-width: 1000px) {
+  .sectionsWrapper {
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

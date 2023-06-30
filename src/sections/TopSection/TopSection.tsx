@@ -1,7 +1,12 @@
 import React, { MouseEventHandler } from 'react';
 import doorOpened from 'assets/images/doorOpened.jpg';
-import './top_section.scss';
+
 import { ArrowButton } from './ArrowButton';
+
+import './top_section_big_screen.scss';
+import './top_section_tablet.scss';
+import './top_section_mobile.scss';
+
 interface TopSectionProps {
   anchorRef: any;
 }
@@ -17,7 +22,9 @@ export const TopSection = ({ anchorRef }: TopSectionProps): JSX.Element => {
   return (
     <div className="topLogoWrapper">
       <div className="topWrapperLeftSide">
-        <p className="topVastuWord">VASTU</p>
+        <p className="topVastuWord mobile">
+          VASTU<span>SPACE</span>
+        </p>
         <img
           src={doorOpened}
           className="doorOpenedImg"

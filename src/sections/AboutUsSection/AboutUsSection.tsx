@@ -1,14 +1,16 @@
 import React from 'react';
 import pencil from 'assets/images/pencil.jpg';
 
-import './about_us_section.scss';
+import './about_us_section_mobile.scss';
+import './about_us_section_tablet.scss';
+import './about_us_section_big_screen.scss';
 
 export const AboutUsSection = (): JSX.Element => {
   return (
     <div className="aboutUsWrapper">
       <h2>О НАС</h2>
       <div className="aboutUsBody">
-        <div className="leftSideContainer">
+        <div className="leftSideContainer aboutUs tablet">
           <p className="leftSideText">
             Цель проекта VASTUSPACE - улучшение жизни людей, благодаря созданию
             гармоничных пространств. Каждое построенное здание, обладает своей
@@ -27,7 +29,13 @@ export const AboutUsSection = (): JSX.Element => {
           </p>
         </div>
 
-        <img src={pencil} alt="" width="450px" height="590px" />
+        <img
+          src={pencil}
+          alt=""
+          width="450px"
+          height="590px"
+          className="pencilImage"
+        />
         <div>
           <div>
             <div className="headerDecoration" />

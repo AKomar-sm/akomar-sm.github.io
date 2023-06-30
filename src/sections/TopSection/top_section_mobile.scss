@@ -1,0 +1,44 @@
+@media only screen and (max-width: 700px) {
+  .topLogoWrapper {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    & .topWrapperLeftSide,
+    & .topWrapperRightSide {
+      width: 100%;
+    }
+    & .topSpaceWord {
+      display: none;
+    }
+    & .topVastuWord.mobile {
+      font-size: 42px;
+      letter-spacing: 0px;
+      line-height: 32px;
+      text-transform: uppercase;
+      color: #abbdd6;
+      font-weight: 400;
+      font-family: 'Philosopher';
+      text-align: center;
+    }
+    & .doorOpenedImg {
+      border-top-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      width: 100%;
+      max-height: 45vh;
+    }
+    & .rightBottomSloganWrapper {
+      margin-top: 10px;
+    }
+    & .sloganText {
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 0px;
+      line-height: 30px;
+      color: #383838;
+      font-weight: 250;
+      font-family: 'Raleway';
+      margin: 0;
+      margin-bottom: -30px;
+    }
+  }
+}
