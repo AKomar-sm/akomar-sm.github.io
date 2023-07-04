@@ -1,0 +1,36 @@
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  .serviceItemWrapper {
+    width: calc(100% - 30px);
+    padding: 35px;
+    padding-top: 107px;
+    margin: 30px;
+    box-sizing: border-box;
+    background-color: #fff4ed;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    .headerContainer {
+      width: 80%;
+      height: 105px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      h3 {
+        font-size: 26px;
+        letter-spacing: 0px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: 400;
+        font-family: 'Philosopher';
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+  }
+  .itemUl {
+    font-size: 21px;
+  }
+}

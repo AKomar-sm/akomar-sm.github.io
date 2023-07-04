@@ -1,0 +1,119 @@
+@media only screen and (max-width: 700px) {
+  .whyVastuWrapper {
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    .whyVastuContent {
+      display: flex;
+      flex-direction: column;
+      .whyVastuFirstContentSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+          &.notQuote {
+            font-size: 16px;
+            text-align: left;
+            line-height: 20px;
+          }
+          text-align: left;
+          font-size: 18px;
+          letter-spacing: 0px;
+          line-height: 22px;
+          text-transform: uppercase;
+          color: #d8a27d;
+          font-weight: 400;
+          font-family: 'Philosopher';
+          span {
+            display: block;
+            color: #abbdd6;
+            margin-bottom: 50px;
+            margin-top: 10px;
+            text-align: right;
+          }
+        }
+        .parushaWrapper {
+          width: calc(100% + 12px);
+          height: 400px;
+          position: relative;
+          margin-top: 30px;
+          margin-bottom: -55px;
+
+          img {
+            height: 81%;
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 1474px;
+            border-bottom-left-radius: 2416px;
+            border-top-right-radius: 2630px;
+            border-bottom-right-radius: 1349px;
+          }
+          .parushaHolder {
+            width: 100%;
+            height: 500px;
+            position: absolute;
+            top: -88px;
+            // left: -15 px;
+            background-image: url('../../assets/images/parusha.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+          }
+        }
+      }
+      .vastuPros {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .prosItem {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .prosFlower {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            div {
+              width: 50%;
+              height: 50%;
+
+              &.yel,
+              &.gra {
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+              }
+              &.bl,
+              &.purp {
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+              }
+              &.bl {
+                background-color: #c3ddf3;
+              }
+              &.yel {
+                background-color: #f9ed9f;
+              }
+              &.gra {
+                background-color: #b1b5b7;
+              }
+              &.purp {
+                background-color: #e1d5e7;
+              }
+            }
+          }
+          p {
+            font-size: 14px;
+            letter-spacing: 0px;
+            line-height: 16px;
+            color: #383838;
+            font-weight: 250;
+            font-family: 'Raleway';
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

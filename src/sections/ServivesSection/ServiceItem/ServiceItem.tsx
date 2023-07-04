@@ -1,6 +1,8 @@
 import React, { MouseEventHandler } from 'react';
-import './service_item.scss';
-import { ArrowButtonForServices } from './ArrowButtonForServices';
+import { ArrowButtonForServices } from '../ArrowButtonForServices';
+import './service_item_big_screen.scss';
+import './service_item_tablet.scss';
+import './service_item_mobile.scss';
 
 import { TODO_TYPE } from 'types';
 interface WhyItemProps {

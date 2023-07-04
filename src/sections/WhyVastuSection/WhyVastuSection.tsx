@@ -1,6 +1,9 @@
 import React from 'react';
-import './why_vastu_section.scss';
 import parushaBack from 'assets/images/parushaBack.jpg';
+
+import './why_vastu_section_big_screen.scss';
+import './why_vastu_section_tablet.scss';
+import './why_vastu_section_mobile.scss';
 
 const vastyPros = [
   {

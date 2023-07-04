@@ -6,6 +6,7 @@
     & .topWrapperLeftSide,
     & .topWrapperRightSide {
       width: 100%;
+      margin-top: 20px;
     }
     & .topSpaceWord {
       display: none;
@@ -24,7 +25,10 @@
       border-top-left-radius: 50%;
       border-bottom-right-radius: 50%;
       width: 100%;
+      max-width: 410px;
       max-height: 300px;
+      margin: 0 auto;
+      display: block;
     }
     & .rightBottomSloganWrapper {
       margin-top: 10px;

@@ -1,0 +1,45 @@
+@media only screen and (max-width: 700px) {
+  .feedbackSectionWrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    .feedbackItemsWrapper {
+      display: flex;
+      flex-direction: column;
+      .feedbackItem {
+        border: 2px solid #d8a27d;
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 20px;
+        h4 {
+          font-size: 24px;
+          letter-spacing: 0px;
+          line-height: 22px;
+          color: #abbdd6;
+          font-weight: 400;
+          font-family: 'Philosopher';
+          text-align: center;
+        }
+        .feedbackProjectName {
+          font-size: 24px;
+          letter-spacing: 0px;
+          line-height: 22px;
+          color: #d8a27d;
+          font-weight: 600;
+          font-family: 'Raleway';
+          text-align: center;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .feedbackBody {
+          font-size: 16px;
+          letter-spacing: 0px;
+          line-height: 18px;
+          color: #000000;
+          font-weight: 250;
+          font-family: 'Raleway';
+        }
+      }
+    }
+  }
+}
