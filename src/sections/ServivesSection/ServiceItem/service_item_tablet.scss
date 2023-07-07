@@ -6,8 +6,8 @@
     margin: 30px;
     box-sizing: border-box;
     background-color: #fff4ed;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 43vw;
+    border-top-right-radius: 43vw;
     .headerContainer {
       width: 80%;
       height: 105px;
@@ -16,6 +16,7 @@
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
+      margin-bottom: 8%;
       h3 {
         font-size: 26px;
         letter-spacing: 0px;
@@ -27,10 +28,11 @@
         text-align: center;
         margin-right: auto;
         margin-left: auto;
+        max-width: 70%;
       }
     }
   }
   .itemUl {
-    font-size: 21px;
+    // font-size: 21px;
   }
 }

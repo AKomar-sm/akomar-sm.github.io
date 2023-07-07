@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1a8daa4.css",
-    "main.js": "/static/js/main.3eaa227c.js",
+    "main.css": "/static/css/main.cc6d0ad0.css",
+    "main.js": "/static/js/main.acd5db82.js",
     "static/media/family.jpg": "/static/media/family.cebc9022ab05f7b06bb6.jpg",
     "static/media/parushaBack.jpg": "/static/media/parushaBack.93227f6a3630f2c428ac.jpg",
     "static/media/doorOpened.jpg": "/static/media/doorOpened.71f00a12661f12058c81.jpg",
@@ -17,11 +17,11 @@
     "static/media/Philosopher-BoldItalic-webfont.woff": "/static/media/Philosopher-BoldItalic-webfont.6612c3406d9fe929f355.woff",
     "static/media/Philosopher-Italic-webfont.woff": "/static/media/Philosopher-Italic-webfont.3cf6ef8929197b4865fa.woff",
     "index.html": "/index.html",
-    "main.a1a8daa4.css.map": "/static/css/main.a1a8daa4.css.map",
-    "main.3eaa227c.js.map": "/static/js/main.3eaa227c.js.map"
+    "main.cc6d0ad0.css.map": "/static/css/main.cc6d0ad0.css.map",
+    "main.acd5db82.js.map": "/static/js/main.acd5db82.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1a8daa4.css",
-    "static/js/main.3eaa227c.js"
+    "static/css/main.cc6d0ad0.css",
+    "static/js/main.acd5db82.js"
   ]
 }

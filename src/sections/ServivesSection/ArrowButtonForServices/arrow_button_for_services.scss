@@ -20,7 +20,6 @@
     margin-right: 10px;
   }
   .buttomLeftLine {
-    width: 100px;
     height: 4px;
     background-color: #d8a27d;
   }
@@ -30,6 +29,38 @@
     justify-content: flex-start;
     background-color: #abbdd6;
     border-radius: 100%;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+  .buttomLeftLine {
+    width: 50px;
+  }
+  .arrowInCercle {
+    width: 50px;
+    height: 50px;
+    & svg {
+      transform: scale(1.1) translateX(-6px);
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+  .buttomLeftLine {
+    width: 80px;
+  }
+  .arrowInCercle {
+    width: 60px;
+    height: 60px;
+    & svg {
+      transform: scale(1.1) translateX(-6px);
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .buttomLeftLine {
+    width: 100px;
+  }
+  .arrowInCercle {
     width: 60px;
     height: 60px;
     & svg {

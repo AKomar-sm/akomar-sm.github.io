@@ -2,8 +2,6 @@
   .serviceItemWrapper {
     width: 31%;
     height: 700px;
-    padding: 40px;
-    padding-top: 107px;
     box-sizing: border-box;
     background-color: #fff4ed;
     border-top-left-radius: 17vw;
@@ -29,9 +27,29 @@
         margin-left: auto;
       }
     }
+  }
+}
 
-    .itemUl {
-      // height: 50%;
-    }
+@media only screen and (min-width: 1000px) and (max-width: 1284px) {
+  .serviceItemWrapper {
+    padding: 20px;
+    padding-top: 95px;
+  }
+  .itemUl {
+    height: 310px;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+  .itemUl {
+    height: 355px;
+  }
+}
+@media only screen and (min-width: 1285px) {
+  .serviceItemWrapper {
+    padding: 40px;
+    padding-top: 107px;
+  }
+  .itemUl {
+    height: 300px;
   }
 }

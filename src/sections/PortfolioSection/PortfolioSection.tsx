@@ -83,7 +83,7 @@ export const PortfolioSection = (): JSX.Element => {
             <img src={imageSrc} alt="" />
             <div className="textWithArrowButton">
               <p>{description}</p>
-              <ArrowOnlyButton />
+              <ArrowOnlyButton uid={`arrowOnlyBtn_${id}`} />
             </div>
           </div>
         ))}

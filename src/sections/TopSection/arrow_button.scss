@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 699px) {
   .freeConsultingButton {
     background: none;
     height: 70px;
@@ -22,7 +22,6 @@
       margin-left: 10px;
     }
     .buttomLeftLine {
-      width: 70px;
       height: 4px;
       background-color: #d8a27d;
     }
@@ -64,7 +63,6 @@
       margin-left: 10px;
     }
     .buttomLeftLine {
-      width: 150px;
       height: 4px;
       background-color: #d8a27d;
     }
@@ -80,5 +78,15 @@
         transform: scale(1.1) translateX(-6px);
       }
     }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .buttomLeftLine {
+    width: 70px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .buttomLeftLine {
+    width: 150px;
   }
 }

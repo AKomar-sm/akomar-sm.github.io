@@ -11,16 +11,14 @@
       justify-content: space-between;
       position: relative;
       .portfolioItem {
+        // height: calc(55vw + 200px);
         &.invisible {
           display: none;
         }
         width: 100%;
         img {
-          // margin-top: -80px;
-          // margin-bottom: -40px;
           width: 100%;
-          height: 250px;
-          // border-radius: 20px;
+          height: 55vw;
           object-fit: COVER;
         }
         h4 {
@@ -60,7 +58,7 @@
   .rightButton {
     position: absolute;
     top: 0px;
-    height: 250px;
+    height: 55vw;
     font-size: 40px;
     padding: 0px;
     border: none;

@@ -3,12 +3,13 @@
     margin: 100px 20px 0 20px;
     border-radius: 40px;
     background-color: #fff4ed;
-    padding-top: 30px;
+    padding-top: 1px;
     padding-left: 30px;
     padding-right: 30px;
     .portfolioContent {
       display: flex;
       justify-content: space-between;
+      margin-top: -25px;
       .portfolioItem {
         width: 30%;
         img {
@@ -25,6 +26,7 @@
           font-weight: 250;
           font-family: 'Raleway';
           text-align: center;
+          margin: 10px;
         }
         .textWithArrowButton {
           display: flex;
