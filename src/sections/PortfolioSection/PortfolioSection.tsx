@@ -23,7 +23,7 @@ const portfolioData = [
     id: '2',
   },
   {
-    description: 'Одноэтажный жилой дом, 160 кв. м',
+    description: 'Гостевой дом, 89 кв. м',
     imageSrc: pr3,
     id: '3',
   },
