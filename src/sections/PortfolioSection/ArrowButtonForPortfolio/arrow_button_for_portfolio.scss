@@ -13,8 +13,11 @@
   font-family: 'Raleway';
   text-align: left;
   border-radius: 30px;
-  border: none;
-  padding: 0;
+  border: 1px solid #38383800;
+  padding: 10px;
+  &:hover {
+    border-color: #abbdd6;
+  }
   span {
     margin-right: 10px;
   }

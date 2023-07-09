@@ -1,11 +1,15 @@
 .arrowOnlyBtn {
   background: none;
-  height: 70px;
+  height: 50px;
   display: flex;
   align-items: center;
-  border: none;
-  padding: 0;
+  border: 1px solid #d8a27d00;
+  border-radius: 25px;
+  padding: 0 10px;
   margin-left: 15px;
+  &:hover {
+    border-color: #abbdd6;
+  }
   .buttomLeftLine {
     width: 40px;
     height: 3px;
