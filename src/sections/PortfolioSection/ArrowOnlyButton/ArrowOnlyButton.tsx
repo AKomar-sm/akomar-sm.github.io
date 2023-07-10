@@ -7,7 +7,7 @@ import { TODO_TYPE } from 'types';
 export const ArrowOnlyButton = ({ uid }: { uid: string }): JSX.Element => {
   const onClick = (event: TODO_TYPE): TODO_TYPE => {
     console.log('btn click! RJS');
-    window.parent.postMessage(uid + JSON.stringify(event), '*');
+    window?.parent?.postMessage(uid, '*');
   };
 
   return (
