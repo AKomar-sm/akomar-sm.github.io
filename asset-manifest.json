@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1aa01558.css",
+    "main.css": "/static/css/main.8e082481.css",
     "main.js": "/static/js/main.842ec1cb.js",
     "static/media/family.jpg": "/static/media/family.08977b03245fea92a638.jpg",
     "static/media/doorOpened.jpg": "/static/media/doorOpened.6e027ee7b653f33825df.jpg",
@@ -17,11 +17,11 @@
     "static/media/Philosopher-Italic-webfont.woff": "/static/media/Philosopher-Italic-webfont.3cf6ef8929197b4865fa.woff",
     "static/media/parusha.png": "/static/media/parusha.cf4d6edbbbd1d34000c4.png",
     "index.html": "/index.html",
-    "main.1aa01558.css.map": "/static/css/main.1aa01558.css.map",
+    "main.8e082481.css.map": "/static/css/main.8e082481.css.map",
     "main.842ec1cb.js.map": "/static/js/main.842ec1cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aa01558.css",
+    "static/css/main.8e082481.css",
     "static/js/main.842ec1cb.js"
   ]
 }
