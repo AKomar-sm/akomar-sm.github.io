@@ -5,8 +5,7 @@ import './arrow_only_button.scss';
 import { TODO_TYPE } from 'types';
 
 export const ArrowOnlyButton = ({ uid }: { uid: string }): JSX.Element => {
-  const onClick = (event: TODO_TYPE): TODO_TYPE => {
-    console.log('btn click! RJS');
+  const onClick = (): TODO_TYPE => {
     window?.parent?.postMessage(uid, '*');
   };
 
