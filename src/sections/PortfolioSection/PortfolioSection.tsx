@@ -3,7 +3,6 @@ import pr1 from 'assets/images/pr1.jpg';
 import pr2 from 'assets/images/pr2.png';
 import pr3 from 'assets/images/pr3.jpg';
 import { ArrowButtonForPortfolio } from './ArrowButtonForPortfolio/ArrowButtonForPortfolio';
-import { ArrowOnlyButton } from './ArrowOnlyButton/ArrowOnlyButton';
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
 import { BsDot } from 'react-icons/bs';
 import './portfolio_section_mobile.scss';
@@ -83,7 +82,6 @@ export const PortfolioSection = (): JSX.Element => {
             <img src={imageSrc} alt="" />
             <div className="textWithArrowButton">
               <p>{description}</p>
-              <ArrowOnlyButton uid={`arrowOnlyBtn${id}`} />
             </div>
           </div>
         ))}
