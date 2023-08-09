@@ -13,6 +13,7 @@
   text-align: left;
   border-radius: 25px;
   border: 1px solid #fff4ed;
+  max-width: 100%;
   &:hover {
     border-color: #abbdd6;
   }
@@ -29,6 +30,9 @@
     justify-content: flex-start;
     background-color: #abbdd6;
     border-radius: 100%;
+    & svg {
+      transform: translate(-10px) scaleX(1.3);
+    }
   }
 }
 

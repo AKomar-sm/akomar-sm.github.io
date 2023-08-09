@@ -1,5 +1,8 @@
 import React, { MouseEventHandler } from 'react';
+import { polyfill } from 'seamless-scroll-polyfill';
+
 import { ArrowButtonForServices } from '../ArrowButtonForServices';
+
 import './service_item_big_screen.scss';
 import './service_item_tablet.scss';
 import './service_item_mobile.scss';
@@ -23,6 +26,8 @@ export const ServiceItem = ({
       inline: 'nearest',
     });
   };
+
+  polyfill();
 
   return (
     <div className="serviceItemWrapper">
