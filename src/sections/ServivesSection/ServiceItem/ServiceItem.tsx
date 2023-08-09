@@ -1,5 +1,5 @@
 import React, { MouseEventHandler } from 'react';
-import { polyfill } from 'seamless-scroll-polyfill';
+import smoothscroll from 'smoothscroll-polyfill';
 
 import { ArrowButtonForServices } from '../ArrowButtonForServices';
 
@@ -27,7 +27,7 @@ export const ServiceItem = ({
     });
   };
 
-  polyfill();
+  smoothscroll.polyfill();
 
   return (
     <div className="serviceItemWrapper">
