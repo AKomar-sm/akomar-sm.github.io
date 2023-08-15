@@ -6,18 +6,13 @@ import { ArrowButton } from './ArrowButton';
 import './top_section_big_screen.scss';
 import './top_section_tablet.scss';
 import './top_section_mobile.scss';
+import { smoothScrollTo } from 'helpers';
 
-interface TopSectionProps {
-  anchorRef: any;
-}
-
-export const TopSection = ({ anchorRef }: TopSectionProps): JSX.Element => {
-  const onArrowButtonClick: MouseEventHandler<HTMLButtonElement> = () => {
-    anchorRef.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-      inline: 'nearest',
-    });
+export const TopSection = (): JSX.Element => {
+  const onArrowButtonClick:
+    | MouseEventHandler<HTMLButtonElement>
+    | any = async () => {
+    await smoothScrollTo();
   };
   return (
     <div className="topLogoWrapper">

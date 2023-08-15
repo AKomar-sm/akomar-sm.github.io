@@ -1,34 +1,22 @@
 import React, { MouseEventHandler } from 'react';
-import smoothscroll from 'smoothscroll-polyfill';
-
 import { ArrowButtonForServices } from '../ArrowButtonForServices';
 
 import './service_item_big_screen.scss';
 import './service_item_tablet.scss';
 import './service_item_mobile.scss';
 
-import { TODO_TYPE } from 'types';
+import { smoothScrollTo } from 'helpers';
 interface WhyItemProps {
   header: string;
   text: string;
-  anchorRef: TODO_TYPE;
 }
 
-export const ServiceItem = ({
-  header,
-  text,
-  anchorRef,
-}: WhyItemProps): JSX.Element => {
-  const onArrowBtnClick: MouseEventHandler<HTMLButtonElement> = () => {
-    anchorRef.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-      inline: 'nearest',
-    });
+export const ServiceItem = ({ header, text }: WhyItemProps): JSX.Element => {
+  const onArrowBtnClick:
+    | MouseEventHandler<HTMLButtonElement>
+    | any = async () => {
+    await smoothScrollTo();
   };
-
-  smoothscroll.polyfill();
-
   return (
     <div className="serviceItemWrapper">
       <div className="headerContainer">

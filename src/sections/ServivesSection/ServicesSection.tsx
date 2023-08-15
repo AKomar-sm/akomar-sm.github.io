@@ -4,8 +4,6 @@ import { ServiceItem } from './ServiceItem';
 
 import family from 'assets/images/family.jpg';
 
-import { TODO_TYPE } from 'types';
-
 import './service_section_big_screen.scss';
 import './service_section_tablet.scss';
 import './service_section_mobile.scss';
@@ -28,14 +26,14 @@ const servicesContent = [
   },
 ];
 
-export const ServicesSection = ({ anchorRef }: TODO_TYPE): JSX.Element => {
+export const ServicesSection = (): JSX.Element => {
   return (
     <div className="servicesWrapper">
       <h2>УСЛУГИ</h2>
       <img src={family} alt="" width="100%" className="familyImage" />
       <div className="itemsWrapper">
         {servicesContent.map((data) => (
-          <ServiceItem key={data.id} {...data} {...{ anchorRef }} />
+          <ServiceItem key={data.id} {...data} />
         ))}
       </div>
     </div>

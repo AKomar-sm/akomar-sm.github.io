@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { TopSection } from './sections/TopSection';
 import { AboutUsSection } from 'sections/AboutUsSection';
 import { WhyVastuSection } from 'sections/WhyVastuSection';
@@ -10,16 +10,14 @@ import './app.scss';
 import './fonts/fonts.scss';
 
 function App(): JSX.Element {
-  const anchorRef = useRef<any>({});
-
   return (
     <div className="sectionsWrapper">
-      <TopSection {...{ anchorRef }} />
+      <TopSection />
       <AboutUsSection />
-      <ServicesSection {...{ anchorRef }} />
+      <ServicesSection />
       <WhyVastuSection />
       <PortfolioSection />
-      <FeedbackSection {...{ anchorRef }} />
+      <FeedbackSection />
     </div>
   );
 }
