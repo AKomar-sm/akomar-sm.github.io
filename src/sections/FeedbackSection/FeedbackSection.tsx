@@ -38,7 +38,7 @@ const feedbacksData = [
   },
 ];
 
-export const FeedbackSection = ({ anchorRef }: any): JSX.Element => {
+export const FeedbackSection = (): JSX.Element => {
   return (
     <div className="feedbackSectionWrapper">
       <h2>Отзывы клиентов</h2>
@@ -51,7 +51,7 @@ export const FeedbackSection = ({ anchorRef }: any): JSX.Element => {
           </div>
         ))}
       </div>
-      <div ref={anchorRef} />
+      <div id="anchorB" />
     </div>
   );
 };
