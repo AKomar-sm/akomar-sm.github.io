@@ -7,7 +7,7 @@ import { ServicesSection } from 'sections/ServivesSection';
 import { PortfolioSection } from 'sections/PortfolioSection/PortfolioSection';
 import { FeedbackSection } from 'sections/FeedbackSection';
 
-import { sayswho } from 'helpers';
+// import { sayswho } from 'helpers';
 
 import './app.scss';
 import './fonts/fonts.scss';
@@ -15,15 +15,18 @@ import './fonts/fonts.scss';
 function App(): JSX.Element {
   const anchorRef = useRef<any>({});
 
-  const behavior = sayswho.toLowerCase().match(/(safari [3-9])/)?.length
-    ? undefined
-    : 'smooth';
+  // const behavior = sayswho.toLowerCase().match(/(safari [1-9])/)?.length
+  //   ? undefined
+  //   : 'smooth';
   const scrollIntoBottom: MouseEventHandler<HTMLButtonElement> = () => {
-    anchorRef.current.scrollIntoView({
-      behavior,
-      block: 'start',
-      inline: 'nearest',
-    });
+    anchorRef.current
+      .scrollIntoView
+      //   {
+      //   behavior,
+      //   block: 'start',
+      //   inline: 'nearest',
+      // }
+      ();
   };
   return (
     <div className="sectionsWrapper">
