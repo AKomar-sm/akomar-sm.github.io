@@ -4,7 +4,6 @@ import { ArrowButtonForServices } from '../ArrowButtonForServices';
 import './service_item_big_screen.scss';
 import './service_item_tablet.scss';
 import './service_item_mobile.scss';
-
 import { TODO_TYPE } from 'types';
 
 interface WhyItemProps {
@@ -24,7 +23,7 @@ export const ServiceItem = ({
         <h3>{header}</h3>
       </div>
       <p className="itemUl">{text}</p>
-      <ArrowButtonForServices onClick={scrollIntoBottom} />
+      <ArrowButtonForServices {...{ scrollIntoBottom }} />
     </div>
   );
 };

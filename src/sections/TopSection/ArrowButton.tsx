@@ -1,14 +1,11 @@
-import React, { MouseEventHandler } from 'react';
+import React from 'react';
 import { RxArrowRight } from 'react-icons/rx';
 import './arrow_button.scss';
+import { TODO_TYPE } from 'types';
 
-interface ArrowButtonProps {
-  onClick: MouseEventHandler<HTMLButtonElement>;
-}
-
-export const ArrowButton = ({ onClick }: ArrowButtonProps): JSX.Element => {
+export const ArrowButton = ({ scrollIntoBottom }: TODO_TYPE): JSX.Element => {
   return (
-    <button className="freeConsultingButton" onClick={onClick}>
+    <button className="freeConsultingButton" onClick={scrollIntoBottom}>
       <div className="buttomLeftLine" />
       <div className="arrowInCercle">
         <RxArrowRight color="#d8a27d" fontSize="60px" />
