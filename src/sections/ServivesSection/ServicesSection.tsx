@@ -27,7 +27,9 @@ const servicesContent = [
   },
 ];
 
-export const ServicesSection = ({ scrollIntoBottom }: TODO_TYPE): JSX.Element => {
+export const ServicesSection = ({
+  scrollIntoBottom,
+}: TODO_TYPE): JSX.Element => {
   return (
     <div className="servicesWrapper">
       <h2>УСЛУГИ</h2>

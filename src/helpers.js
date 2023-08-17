@@ -1,7 +1,7 @@
 export const sayswho = (function () {
-  var ua = navigator.userAgent;
-  var tem;
-  var M =
+  const ua = navigator.userAgent;
+  let tem;
+  let M =
     ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) ||
     [];
   if (/trident/i.test(M[1])) {

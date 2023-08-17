@@ -1,4 +1,4 @@
-import React, { LegacyRef } from 'react';
+import React from 'react';
 
 import './feedback_section_mobile.scss';
 import './feedback_section_tablet.scss';
@@ -38,13 +38,7 @@ const feedbacksData = [
   },
 ];
 
-interface FeedbackSectionProps {
-  anchorRef: LegacyRef<HTMLDivElement> | undefined;
-}
-
-export const FeedbackSection = ({
-  anchorRef,
-}: FeedbackSectionProps): JSX.Element => {
+export const FeedbackSection = ({ anchorRef }: any): JSX.Element => {
   return (
     <div className="feedbackSectionWrapper">
       <h2>Отзывы клиентов</h2>
