@@ -57,7 +57,7 @@ export const FeedbackSection = ({
           </div>
         ))}
       </div>
-      <div ref={anchorRef}></div>
+      <div ref={anchorRef} />
     </div>
   );
 };
