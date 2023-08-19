@@ -3,7 +3,6 @@ import React from 'react';
 import './feedback_section_mobile.scss';
 import './feedback_section_tablet.scss';
 import './feedback_section_big_screen.scss';
-import { TODO_TYPE } from 'types';
 
 const feedbacksData = [
   {
@@ -39,7 +38,7 @@ const feedbacksData = [
   },
 ];
 
-export const FeedbackSection = ({ anchorRef }: TODO_TYPE): JSX.Element => {
+export const FeedbackSection = (): JSX.Element => {
   return (
     <div className="feedbackSectionWrapper">
       <h2>Отзывы клиентов</h2>
@@ -52,7 +51,6 @@ export const FeedbackSection = ({ anchorRef }: TODO_TYPE): JSX.Element => {
           </div>
         ))}
       </div>
-      <div id="anchorB" ref={anchorRef} />
     </div>
   );
 };

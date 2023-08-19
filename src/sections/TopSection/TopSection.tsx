@@ -6,9 +6,8 @@ import { ArrowButton } from './ArrowButton';
 import './top_section_big_screen.scss';
 import './top_section_tablet.scss';
 import './top_section_mobile.scss';
-import { TODO_TYPE } from 'types';
 
-export const TopSection = ({ scrollIntoBottom }: TODO_TYPE): JSX.Element => {
+export const TopSection = (): JSX.Element => {
   return (
     <div className="topLogoWrapper">
       <div className="topWrapperLeftSide">
@@ -27,7 +26,7 @@ export const TopSection = ({ scrollIntoBottom }: TODO_TYPE): JSX.Element => {
         <p className="topSpaceWord">SPACE</p>
         <div className="rightBottomSloganWrapper">
           <p className="sloganText">Создаем пространства меняющие сознание</p>
-          <ArrowButton {...{ scrollIntoBottom }} />
+          <ArrowButton />
         </div>
       </div>
     </div>

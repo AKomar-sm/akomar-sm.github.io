@@ -7,7 +7,6 @@ import family from 'assets/images/family.jpg';
 import './service_section_big_screen.scss';
 import './service_section_tablet.scss';
 import './service_section_mobile.scss';
-import { TODO_TYPE } from 'types';
 
 const servicesContent = [
   {
@@ -27,16 +26,14 @@ const servicesContent = [
   },
 ];
 
-export const ServicesSection = ({
-  scrollIntoBottom,
-}: TODO_TYPE): JSX.Element => {
+export const ServicesSection = (): JSX.Element => {
   return (
     <div className="servicesWrapper">
       <h2>УСЛУГИ</h2>
       <img src={family} alt="" width="100%" className="familyImage" />
       <div className="itemsWrapper">
         {servicesContent.map((data) => (
-          <ServiceItem key={data.id} {...data} {...{ scrollIntoBottom }} />
+          <ServiceItem key={data.id} {...data} />
         ))}
       </div>
     </div>

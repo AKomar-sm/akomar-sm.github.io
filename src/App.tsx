@@ -1,4 +1,4 @@
-import React, { MouseEventHandler, useRef } from 'react';
+import React from 'react';
 
 import { TopSection } from './sections/TopSection';
 import { AboutUsSection } from 'sections/AboutUsSection';
@@ -11,22 +11,14 @@ import './app.scss';
 import './fonts/fonts.scss';
 
 function App(): JSX.Element {
-  const anchorRef = useRef<any>({});
-
-  const scrollIntoBottom: MouseEventHandler<HTMLButtonElement> = () => {
-    anchorRef.current.scrollIntoView({
-      block: 'start',
-      inline: 'nearest',
-    });
-  };
   return (
     <div className="sectionsWrapper">
-      <TopSection {...{ scrollIntoBottom }} />
+      <TopSection />
       <AboutUsSection />
-      <ServicesSection {...{ scrollIntoBottom }} />
+      <ServicesSection />
       <WhyVastuSection />
       <PortfolioSection />
-      <FeedbackSection {...{ anchorRef }} />
+      <FeedbackSection />
     </div>
   );
 }
