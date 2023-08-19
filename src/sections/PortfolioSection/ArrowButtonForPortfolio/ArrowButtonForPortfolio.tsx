@@ -7,7 +7,7 @@ import './arrow_button_for_portfolio.scss';
 
 export const ArrowButtonForPortfolio = (): JSX.Element => {
   const onClick = (): TODO_TYPE =>
-    window?.parent?.postMessage('allProjectsBtnClick', '*');
+    window?.parent?.postMessage('allProjectsBtnClick', '*'); // here
 
   return (
     <button className="freeConsultingButtonForPortfolio" onClick={onClick}>

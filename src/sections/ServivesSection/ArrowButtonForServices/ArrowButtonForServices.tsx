@@ -7,11 +7,14 @@ import { TODO_TYPE } from 'types';
 export const ArrowButtonForServices = ({
   scrollIntoBottom,
 }: TODO_TYPE): JSX.Element => {
+  const onClick: TODO_TYPE = () =>
+    window?.parent?.postMessage('scrollIntoBottom', '*');
+
   return (
     <a href="#anchorB">
       <button
         className="freeConsultingButtonForServices"
-        onClick={scrollIntoBottom}
+        onClick={onClick || scrollIntoBottom}
       >
         <span>
           Получить <br />

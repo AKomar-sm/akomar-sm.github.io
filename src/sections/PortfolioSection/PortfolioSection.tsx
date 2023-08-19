@@ -43,7 +43,6 @@ export const PortfolioSection = (): JSX.Element => {
     } else {
       nextIndex = currentIndex - 1;
     }
-    console.log('for prev', { currentIndex, nextIndex });
     setMobileVisibleItemId(portfolioData[nextIndex].id);
   };
 
